@@ -1,2 +1,45 @@
 All the lessons we will pick up about HTML, CSS and JavaScript will be placed
 in this file
+
+......
+
+LESSON 3
+
+What is HTML?
+HTML is a language used to describe the structure of a webpage. It is used 
+tell the browser how to arrange the contents of a web page.
+
+Pages are made up of elements. HTML is used to describe what elements a page
+contains and how to arrange those elements. Elements of a web page
+- title, paragraph, header, list, table...
+
+HTML also describes formats - 
+
+
+HTML does not describe how elements are formatted or how they appear on the page
+
+A Web browser is also an HTML formatter...it parses HTML document and formats
+them on the screen...Browser maps from html element to styles on screen
+
+tags indicate different parts of a web page and have different effects on the browser - i.e. a browser reacts differently to different tags.
+
+An HTML doc has two parts - the text, the tags
+
+Attribute are used to describe additional information about a tag
+Attributes are used to modify elements
+The ID attribute is used to uniquely identify an element within a page
+Identifiers are used with JS and CSS
+The class attribute is used to identify a particular group of elements
+
+CSS is used to control the look and feel of a web doc...CSS can be used to tell
+the browser to render an element differently from how it normally would
+
+Styles can be placed in sheets and web pages can link to those sheets.
+Styles can be applied site-wide, page-wide, class wide or even to a specific element. Style sheets are page wide, the style attribute is used to apply
+style to a specific element
+
+Rules can be applied to individual elements, to groups of elements
+
+
+
+
