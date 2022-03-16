@@ -41,5 +41,73 @@ style to a specific element
 Rules can be applied to individual elements, to groups of elements
 
 
+...........
+
+
+LESSON 4
+
+The three tags: HtML, head and body.
+HTML - container for all tags in a page. indicates that text is in HTML format
+head - container for information about the page, not information displayed. ie. what is title of the page?
+body - contains page content including text, pictures, links etc.
+
+Here we are learning to communicate in a language that can be understood by browser. We tell the browser what to display.
+the title tag is used to tell the browser what to put on the title bar
+while on the issue of titles, sections of a page can be given titles. The heading tag is used to entitle page sections.
+there are 6 heading levels
+
+
+LESSON 5
+
+Ordered lists
+Unordered lists
+Definition lists
+
+LESSON 6
+
+Again, here we're just learning to communicate with the browser.
+A link tells the browser to jump, go to a specific location. That location can be withi the same page as the 'link' or it can
+be some other page on the web.
+A link has an anchor, the anchor is the clickable link.
+href is a hypertext reference and is an attribute of the anchor tab
+A link is a pointer. It points to some location in web space. The href attribute is used to show where the link pointer points to.
+The link tag like all tags is a container. All the text/image contained within a link tag will be clickable. Placing text inside a 
+link tag is a way of telling the browser to highlight the text and jump to the location the link points to when clicked.
+A link is created from one location to another.
+Locations in computer space are identified by url. A file name serves as a url, the last part of the url at least.
+
+The href tells the browser where in computer space to find the location being linked to. When only the filename is specified, browser
+looks in the same file as the current file. This is true even when a link is made to a page that sits on a different computer. When only filename is specified, browser looks in the same directory as the file containing the link.
+
+When directing the web browser, we can provide it a relative path name or an absolute one. The relative path name, as the name implies, says relative to this file, this is where to find the location being linked to.
+
+When you see a /, replace it with "." and think in terms of objects.
+
+files/file.html - files.file : Files is the array and file is the element of the array. The element belongs to the array. Here we are
+saying go to the files directory and find the file object within this directory. The files directory is in the same directory as the current file.
+
+files/morefiles/file.html: files.morefiles.file
+The file being linked to "file.html" is in the morefiles array. The morefiles array itself is an element of the files array. The array files is in the same directory as the file that contains the link.
+../file.html
+The file being linked to belongs to a directory that is one level above the current directory. The directory one level above the current directory an element of an array. That directory is in the same directory as the file containing the link.
+../../files/file.html
+file element belongs to the files array
+
+Abslute path: here we're directing the browser from the top of the file system.
+Absolute path names begin with a /
+ie. when browser sees a / it knows you are using absolute pathname system to direct it.
+/home/katlego/file.html
+Remember we are always looking for an object not a directory.
+Here we are saying that the object file.html is located in the katlego directory of the home.
+home.katlego.file.html: The object bein linked to belongs to the katlego array. The katlego array itself is an element of the home array
+An array is a container.
+
+The root directory is /. home is not the only element of the root directory, there are many others.
+the home directory is home/katlego not just home. katlego is the only element of the home array.
+
+relative vs absolute
+You want to avoid breaking links when files are being moved around.
+ 
+
 
 
