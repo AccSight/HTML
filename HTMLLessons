@@ -107,7 +107,29 @@ the home directory is home/katlego not just home. katlego is the only element of
 
 relative vs absolute
 You want to avoid breaking links when files are being moved around.
- 
+If objects being linked are in the same array a relative system will do. When the array is moved, links won't break
+If object being linked are not in the same array, an absolute system will do. When the array is moved, link still not broken.
 
+objects on the same local disc can be linked
+An object on a local disc to be linked to another that is on foreign disk.
+The internet is an interconnection of computers. Each computer can be viewed as an element in web space. Each computer contains files on
+its local disk.
+To link to an element on a foreign computer, the pathname on the hypertext link is replaced by a url.
+Not foreign but remote.
 
+Up to this points objects have been referring to web pages that have an html extension. ie. html files
+Each page has a url. A page's url is found in the address box of the browser. 
+
+Up to this point we've treated the object we are linking to as a page. We can treat the page as an array containing several locations
+within its core. This means that we can link to specific locations within a page, not just the page in general.
+
+The way to do this is to place that location under a tag and assign an ID to that tag. No two tags in the same page can have the same
+ID. 
+Since the html file plays the role of the array and the ID'd tag plays the role of the contained object, the # replaces the /
+file.html#idname replace # with . and think in terms of objects. The object being linked to idname, belongs to array file.
+Elements in the same page can also be linked using the ID attribute
+<a href = "#idname">clickable link</a> - this is the same idea as the relative pathname.
+
+url consists of protocol, host, directory/path
+it can also contain port, query and...
 
