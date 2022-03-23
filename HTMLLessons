@@ -133,3 +133,28 @@ Elements in the same page can also be linked using the ID attribute
 url consists of protocol, host, directory/path
 it can also contain port, query and...
 
+Anchor tag and hypertext reference being linked to
+A relative pathname defines the location of the file/object being linked to relative to the file containing the link. Here we are saying
+to find the file, search starting at the directory containing the file and follow the link.
+An absolute pathname - starting with / - searches relative to the root directory
+An anchor is a specific location/tag - list item, paragraph, heading... -  marked with the ID attribute. The anchor is used to define
+a specific location within a page that can be linked to.
+http, ftp points to a file on an ftp server, a file url points to a file contained on a local disk and mailto urls are used to send email
+
+
+A browser is a on object. The browser object is commanded using the HTML tags.
+The browser object has a pointer. The browser can be commanded to make its pointer point to a specific location. 
+When the browser is made to point at that location, it parses and renders contents it finds at the location.
+The browser object receives commands and communicates with the server and fulfil those commands.
+The url contains all the information the browser needs to do its job.
+This is a typical client-server application. The user uses the client to make commands of the server. The user commands the server via the browser.
+The server does the real job.
+
+............................
+
+LESSON 7
+
+Here I'm showing you what the browser can be commanded to do.
+
+
+
