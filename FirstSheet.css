@@ -1,0 +1,36 @@
+h2 {
+  font-weight: bolder;
+  font-size: xx-small;
+}
+h1 {
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+.important {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: aqua;
+}
+
+div.important {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: chartreuse;
+}
+
+p.important {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: cadetblue;
+}
+
+.yellow {
+  color: yellow;
+}
+.blue {
+  color: blue;
+}
+.yellow.blue {
+  color: green;
+}

@@ -1,0 +1,42 @@
+body {
+  font-size: 200%;
+  background-color: green;
+  color: black;
+}
+div {
+  font-size: 80%;
+  border-style: dotted;
+  border-width: 10px;
+}
+p {
+  font-size: 80%;
+}
+span.smaller {
+  font-size: 80%;
+  font-weight: bold;
+}
+#smallest {
+  font-size: 80%;
+  font-weight: normal;
+}
+
+a{
+    color: aquamarine;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color:black;
+}
+
+#true {
+  color: white;
+  background-color: black;
+}
