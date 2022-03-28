@@ -156,5 +156,121 @@ LESSON 7
 
 Here I'm showing you what the browser can be commanded to do.
 
+....................
+
+
+LESSON 8
+
+A tag has a style attribute
+The style attribute is the least efficient means of applying style to a page.
+
+This is a bit confusing but, in addition to the style attribute of tags, we also have the style HTML tag that is used to apply rules
+to specific elements of a page. Inside the style tag, rules are written
+<style>
+selector{"property: value","property: value"}
+</style>
+Here we are saying to the browser whenever you see a selector in this page, affect its appearance/style as the rules dictate.
+The style attribute is placed inside the head of a document. When done in this way the rules are page-wide ie. apply to all elements 
+of a page.
+An alternative is to create a style sheet and link to it from any page using the link tag. The link tag's href attribute is used
+to tell the browser where to fetch the sheet being linked to. The type attribute specifies MIME info...
+medium can be print, screen. You can specify different styles for different media outlets.
+Stylesheets can be given titles. The rel attribute of the link tag is used to specify the title of the sheet being linked to
+You can specify many sheets for your page but the one with title matching rel will be the preferred on.
+Now JavaScript can be used to select between different sheets.
+
+One page can link to different sheets and all rules will be applied
+
+Look, each tag is like a class. Everytime the browser sees a tag, it creates an instance/object of the tag class.
+Styles can be applied to more than one selector at a time
+h,p,li {pro;val}
+the "," is like an and. here we are saying this rule applies to h and p and li. When you see comma, think and.
+In HTML it's possible to nest element ie. place one element inside another.
+An element nested belongs to another one. Rules can be specified for nested elements by specifying the nesting element and the nested element.
+
+h li{pro;val}
+Here we are saying. the rule applies to li in h
+Space means in but is read backwards. rule applies to all instances of li in h. When you see space think "in" and read it backwards.
+cite {pro;val} - all instances of cite
+p cite{pro;value} - all instances of cite in paragraph
+li cite{pro;value} - all instances of ite in list.
+
+more specific rules override more general rules. This means that rules for nested elements wil override more general ones.
+
+We can create our own classification for use with css.
+HTML tags all have class and id attributes. The id is like assigning a variable name to a tag and the class attribute is like assigning
+a type to a tag. Think of the id as the name and the class as the surname. The name is unique to the individual but the surname is
+shared by the group.
+class          id
+type           variable
+surname        name
+group          individual
+
+.className{pro;val}
+The dot says to browser we are referring to a class
+div.important{pro;val}
+p.important{pro;val}
+Here we are being more specific to the browser. We are saying div.important = div of the important class
+p.important = p of the important group
+
+# -> id
+. -> class
+
+h1, #headline, .heading, div.important {pro;value}
+h1 -> element
+, -> and
+# -> id
+. -> class
+div.important -> div in the important group
+
+ul li.important{pro,value;}
+" " in
+li.imporant -> li in the important group
+rule applies to list item belonging to the important class and nested within an unordered list.
+
+a new class can be created by combining simpler classes.
+.yellow{}
+.blue{}
+.yellow.blue{}
+<class "blue yellow">
+For rule to be applied, element must be present in both.
+
+Cascading - styles cascade from parent to child
+
+The body is the main parent.
+The div is the next parent
+The ps are the next set of parents
+the spans are the children of the p
+
+The main idea is that links have a state; a link can be active, visited, hover...
+: -> link is some state
+
+BOX MODEL
+Margin
+Border
+Padding
+Content
+
+Each element has a box around it. The box around an element has a border, a margin and some padding.
+The attributes of an element's box are its content, padding, border and margin.
+Each attribute in turn has attributes. Attributes of a box's border are its width,colour, style
+The border property is used to set the values of multiple attributes.
+Each border has sides; left, right, top and bottom Each side's attributes can be set independently.
+
+There is some white space surrounding a box's border. Padding is the whitespace inside the border and margin is the whitespace
+outside the border.
+
+Each element has a box. The box has a border. The border has a padding and some margin as well. The padding is the space inside the border
+and the margin is the space outside the border. When there's no padding, the content will be right up againt the border and when there's no margin the outside elements will be jammed against the border.
+
+the display property is used to set how the content is display - inline or block.
+
+p span.important{pro;val}
+this is an element span of class important nested within a paragraph element.
+
+The size of the box set using the width and height properties of the style
+
+
+
 
 
