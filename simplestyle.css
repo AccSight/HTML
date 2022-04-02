@@ -1,0 +1,26 @@
+#p1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: dashed 2px green;
+  padding: 5px;
+  margin: 3px;
+  float: left;
+  background-color: aqua;
+}
+
+#p2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: dashed 2px blue;
+  padding: 5px;
+  margin: 3px;
+  clear: left;
+  background-color: blueviolet;
+}
+
+.img {
+  border: dashed 4px red;
+  padding: 0px;
+  margin: 5px;
+  float: left;
+}

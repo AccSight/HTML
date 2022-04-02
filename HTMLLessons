@@ -270,7 +270,179 @@ this is an element span of class important nested within a paragraph element.
 
 The size of the box set using the width and height properties of the style
 
+//.......
+A web page document has elements. These include headings, titles, paragraphs, lists, images, links etc
+These are called HTML element. CSS treats HTML  elements as objects. Like all objects, these elements have
+attributes. Some of the attributes of HTML elements are its border, its background, padding and margin. Each
+of these attributes are also objects that have their own attributes. A background, has an image, a position...
+
+Lesson 3 introduced the basic elements - html, head, title, body. It then showed you how to apply styles
+to basic elements.	
+
+Lesson 4 discussed the basic elements indlucing p,h1-6
+
+Lesson 5 discussed how to organize information using lists
+A list is just another element. CSS can also be applied to a list element. Style to a list element refers to type. 
+for ordered - number,roman... for unordered - circle,disc or even image
+The list-style-type   property is used control this feature of lists.
+There's also list-style-position property controls the position of the list relative to the text
+
+In Lesson 6 we disussed links
+
+In Lesson 7 we looked at how to format text using css
+
+Lesson 8 discussed how to use images on a web page
+
+4: Basic elements
+5: Lists
+6: Links
+7: CSS
+8: Images
 
 
+Here we treat HTML elements as objects. When the browser sees a tag, it instantitates an object of that class
+All of these objects have attributes.
+CSS is mainly used to provide values for these attributes.
+HTML has basic elements: html,head, title, body, paragraph, list, link etc.
+Text and images can be placed inside elements.
+These elements can also be seen as containers. They can contain text or images.
+All of these elements have certain attributes.
+
+Each element a box. Each element's box has content, border, padding and margin. The content is what the container contains, it's the actual text or image placed inside the container. The rest of the attributes are set using style sheets.
+
+So we have HTML elements. Elements contain text or images. Each element has a box that in turn has content, border, padding and margin.
+Each element also has a background.
+Thus there's an element. That element has a box. The box has a content, a border and background. These elements of a box are also treated as objects with personal attributes. A border has padding and margin. A background has a colour, an image etc.
+
+Each element can be assigned a variable name and type that it belongs to. The class and id global attributes are used to assign a group
+and a name to an element.
+
+Once we can identify elements, either by name or by group, we can assign rules to their behaviour and appearance.
+CSS allows us to say for element x do {y;z}
+It's also possible to nest one element within another. 
+
+
+This is the big picture view.
+HTML is the root element, all other elements are contained within the HTML element.
+All the actual contents of the document are placed within the body element.
+
+Each HTML document has dimensions. The HTML itself can be understood to have a box around it.
+The document will have a certain width and a certain height. 
+The document itself can be viewed as a table containing a certain number of rows and columns. 
+Pixel is a useful unit of measure.
+
+Elements are displayed on the document. An element occupies a region of the document.
+
+Unless told otherwise, the browser places elements as they appear one after the other
+
+This is why I say the HTML itself has a box. It becomes the containing element for the body element.
+The body's border is contained within the html element.
+
+A website is a set of linked HTML documents.
+
+When the browser instantiates an object on an HTML page, it assigns to it a row
+A row can only accomodate a certain number of characters, so when it fills up the next row is made available.
+The next object created starts at the following row.
+
+Placing elements in series is just one way of organizing them. Elements can also be placed nested.
+
+The html document is like a table. Each address on the table is identified by its row and column.
+The main idea is that elements are placed at addresses on the table.
+
+In so saying, an element occupies an address.
+
+An element is placed at an address.
+
+An anchor can be placed at any address occupied by an element.
+
+When an anchor is placed at an address, that address becomes a clickable link.
+
+Remember elements are actually abstract objects that do not appear on the page. Only the text/image they contain
+appears on the page. The element is just a container for actual text/image.
+
+No, no. Here we are looking for the address of where the anchor is placed. That 
+
+When we place an anchor on a page, we specify where the anchor links to and what the clickable item on the page is.
+
+Remember the anchor acts on the cliking side.
+
+We can link to another page or a specific address on another page. To link to a specific address on a page, we have to assign
+a name to the element that occupies the address we want to link to.
+
+The degree of specificity varies.
+
+HTML is the root, and then from the root we can go to other places within the HTML
+Services.html#name
+A link allows the document viewer to jump to a different location.
+
+A set of linked documents. Links exist between documents.
+
+The anchor tag has a pointer that points to a specific location.
+
+An image is placed within an image tag.
+An image itself is a file.
+It has a width and a height.
+To place an image on a web document we have to wrap it around an image tag.
+The image tag also has an image pointer that points to a image file.
+
+Okay, let's take it a notch higher. The HTML document is stored somewhere on the computer
+
+The computer itself has the root directory.
+Files are placed inside directories.
+
+There's the root directory
+There's the home directory. Within this directory you'll find other directories such as Downloads, Desktop etc.
+Within the Downloads directory you'll find other directories and files.
+The browser has to be told where on the computer to find the file.
+The address of a file is specified using either an absolute address or a relative one.
+
+The browser itself has a pointer - the url. 
+google-chrome ~/HTML/file.html
+I'm using the chrome browser. Here chrome's pointer is pointing at file within the HTML directory.
+The browser's pointer is pointing at this location, this is where it is.
+Even when the browser points at the file.html it points at a specific location within the file.html - start location.
+
+Address boils down to row and column, if none is specific 0,0 will be pointed to.
+
+Files are organized in a structure - a hierachy.
+
+The browser has an image tag. This too is an element. The image tag has a pointer - src. 
+The broswer will display an image located where its image pointer is pointing to.
+The image to be displayed is placed somewhere on the computer. 
+
+
+floating means you place it against the edge of its containing container.
+It also means that you keep the box as small as possible, big enough to fit text.
+
+So float right means place it against the right edge of its parent container and make its box as small as possible
+
+You see, by floating left you make line it up against the edge and make it as small as possible. This leaves room for other elements
+to occupy the same row as the floated element. Without floating, the element takes up the entire row, with floating it's only as wide
+as it needs to be.
+
+All elements have to be floated independently. If the second element is not floated, it will fill up the entire row and make a mess.
+That's what floating means.
+Images can be floated.
+
+
+<a href="nothing"><img src="automation.jpeg" ismap></a>
+show coordinates when move hovers over image
+
+This idea is extendable.
+
+An image is like text, it's content. HTML has the img tag. The img tag represents the image element.
+The img tag has a pointer - src. The browser displays an image located where the image pointer points.
+Each file on the system has a url - this is its unique address.
+When an image object is created, its pointer points to an image on the disk.
+
+img is an inline image, it's inline with text.
+The image element like any other is an object that has some attributes.
+
+vertical-align allows us to set how an image is aligned with the text it's inline with.
+
+...............
+
+
+A table is an element. It's attribute include a caption, a heading, a cell and some data. 
 
 

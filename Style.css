@@ -1,0 +1,58 @@
+#t1 {
+  border: 1px solid red;
+  border-collapse: seperate;
+  border-spacing: 5px;
+  width: 50%;
+  background-color: gray;
+  float: left;
+}
+
+#t2 {
+  border: 1px solid red;
+  border-collapse: seperate;
+  border-spacing: 5px;
+  width: 50%;
+  background-color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  height: 400px;
+}
+
+.t3 {
+  border: 1px solid red;
+  border-collapse: seperate;
+  border-spacing: 5px;
+  width: 50%;
+  background-color: gray;
+  clear: left;
+}
+
+td {
+  border: 1px dashed green;
+  padding: 10px;
+  width: 20%;
+  background-color: blue;
+}
+
+th {
+  border: 1px dashed green;
+  padding: 10px;
+  width: 20%;
+  background-color: blueviolet;
+}
+
+#right {
+  text-align: right;
+}
+
+#left {
+  text-align: left;
+}
+
+#top {
+  text-align: top;
+}
+
+#bottom {
+  text-align: bottom;
+}

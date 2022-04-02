@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Element</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <table border="5" cellpadding="10" id="t1">
+      <caption>
+        My Table
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Height</th>
+        <th>Weight</th>
+        <th>Eye-Colour</th>
+      </tr>
+      <tr>
+        <td>Katlego</td>
+        <td>1.72</td>
+        <td>60kg</td>
+        <td>Brown</td>
+      </tr>
+      <tr>
+        <td>Solomon</td>
+        <td>1.65</td>
+        <td>67kg</td>
+        <td>Blue</td>
+      </tr>
+      <tr>
+        <td>Dante</td>
+        <td>1.55</td>
+        <td>50kg</td>
+        <td>Green</td>
+      </tr>
+      <tr>
+        <td>Moruti</td>
+        <td>1.78</td>
+        <td>88kg</td>
+        <td>Olive</td>
+      </tr>
+    </table>
+    <p>
+      Let's add some text in order to illustate how to float the table. The
+      table is very much like an image. The float property can be used to wrap
+      text around a table. You just need enough text in a paragraph to
+      illustrate how this works. Floating means line it up against the edge and
+      make it as wide as it needs be. Don't fill up the row if not necessary
+    </p>
+    <table border="1" id="t2">
+      <caption>
+        <details>
+          <summary>Vital Statistics</summary>
+          The data contained in this table is height,weight and eye colour
+        </details>
+      </caption>
+      <tr id="right">
+        <th>Name</th>
+        <td>Katlego</td>
+        <td>Sololom</td>
+        <td>Dante</td>
+        <td>Moruti</td>
+      </tr>
+      <tr id="left">
+        <th>Height</th>
+        <td>1.72</td>
+        <td>1.67</td>
+        <td>1.55</td>
+        <td>1.82</td>
+      </tr>
+      <tr id="top">
+        <th>Weight</th>
+        <td>60kg</td>
+        <td>55kg</td>
+        <td>57kg</td>
+        <td>70kg</td>
+      </tr>
+      <tr id="bottom">
+        <th>Eye-Colour</th>
+        <td>Brown</td>
+        <td>Blue</td>
+        <td>Green</td>
+        <td>Olive</td>
+      </tr>
+    </table>
+    <table style="width: 50%; border: 1px solid red" class="t3">
+      <caption>
+        <details>
+          <summary>Mixing Primary Colours</summary>
+          <p>New colours can be created from the primary colours</p>
+        </details>
+      </caption>
+      <tr>
+        <th><br /></th>
+        <th>Red</th>
+        <th>Green</th>
+        <th>Blue</th>
+      </tr>
+      <tr>
+        <th>Red</th>
+        <td>Red</td>
+        <td>Col2</td>
+        <td>Col3</td>
+      </tr>
+      <tr>
+        <th>Green</th>
+        <td>Col4</td>
+        <td>Green</td>
+        <td>Col6</td>
+      </tr>
+      <tr>
+        <th>Blue</th>
+        <td>Col7</td>
+        <td>Col8</td>
+        <td>Blue</td>
+      </tr>
+    </table>
+    <table>
+      <caption>
+        <details>
+          <summary>Spanning rows</summary>
+        </details>
+        <p>
+          It's possible for rows and columns to span a number other than 1 row
+          or column
+        </p>
+      </caption>
+      <tr>
+        <th rowspan="2" colspan="2"><br /></th>
+        <th colspan="2">Handedness</th>
+      </tr>
+      <tr>
+        <th>Right</th>
+        <th>Left</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Gender</th>
+        <th>Male</th>
+        <td>96</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th>Female</th>
+        <td>80</td>
+        <td>14</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th colspan="2">Gender</th>
+      </tr>
+      <tr>
+        <th>Male</th>
+        <th>Female</th>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>23</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th><br /></th>
+        <th colspan="2">Ring Clearance</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Piston</th>
+        <th>Upper</th>
+        <td>3.0mm</td>
+      </tr>
+      <tr>
+          <th>Lower</th>
+          <td>3.2mm</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th rowspan="2" colspan="2"></th>
+            <th colspan="2">Used Belt Deflection</th>
+            <th rowspan="2">Set deflection of new belt</th>
+        </tr>
+        <tr>
+            <th>Limit</th>
+            <th>Adjust Deflection</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Alternator</th>
+            <td>Models without AC</td>
+            <td>10mm</td>
+            <td>5-7mm</td>
+            <td rowspan="2">5-7mm</td>
+        </tr>
+        <tr>
+            <td>Models with AC</td>
+            <td>12mm</td>
+            <td>6-8mm</td>
+        </tr>
+        <tr>
+            <th colspan="2">Power Steering Oil Pump</th>
+            <td>12.5mm</td>
+            <td>7.9mm</td>
+            <td>6-8mm</td>
+        </tr>
+    </table>
+  </body>
+</html>
