@@ -2,21 +2,23 @@
   position: relative;
   margin: 0;
   padding: 0;
-  height: 30px;
   width: 90%;
+  height: 30px;
 }
 
+/*list nested within a navbar*/
 #navBar ul {
-  position: abolute;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100;
   list-style-type: none;
-  background-color: #eee;
+  background-color: #eeeeee;
   overflow: visible;
 }
 
+/*list item in top level list*/
 #navBar ul > li {
   display: block;
   float: left;
@@ -24,6 +26,7 @@
   width: 120px;
 }
 
+/*link in top level list*/
 #navBar li > a {
   display: block;
   padding: 0 0 0 10px;
@@ -31,11 +34,8 @@
   width: 109px;
   border-right: 1px solid black;
   line-height: 30px;
-  font-family: sans-serif;
   font-size: 17px;
-  text-decoration: none;
-  background-color: #eee;
-  color: #5d5636;
+  background-color: #eeeeee;
 }
 
 #navBar ul ul {
@@ -44,7 +44,7 @@
   position: static;
   height: auto;
   width: 160px;
-  border: 1px #666666 solid;
+  border: 1px solid #6666;
   background-color: #dddddd;
 }
 
@@ -57,22 +57,27 @@
   border: none;
 }
 
-#navigationBar ul ul li > a {
+#navBar ul ul a {
   height: 100%;
   width: 96%;
   padding: 0 0 0 4%;
   line-height: 28px;
   background-color: transparent;
   border: none;
-  color: #000000;
+  color: black;
   font-size: 12px;
-  font-style: normal;
 }
 
-#navigationBar li:hover > a {
+#navBar ul li:hover > a {
   color: #220000;
-  background-color: #eeeabe;
+  background-color: green;
 }
-#navigationBar li:hover > ul {
+
+#navBar ul ul li:hover > a {
+  color: #220000;
+  background-color: blue;
+}
+
+#navBar ul li:hover > ul {
   display: block;
 }
