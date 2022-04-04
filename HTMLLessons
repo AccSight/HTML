@@ -445,4 +445,47 @@ vertical-align allows us to set how an image is aligned with the text it's inlin
 
 A table is an element. It's attribute include a caption, a heading, a cell and some data. 
 
+..............
+
+
+The computer is the most seminal discovery of the 21st Century. Ability to manipulate the computer and make it do what I want it to do
+will surely put me at an advantage in future. The end goal of these exercises is to become proficient and coding, scripting and creating my own applications. Not only do I believe this will pay dividens later, I'm in the process of setting up a secondary income stream.
+My goal is to get a gig as a software developer.
+
+Remember, padding and margin control the space in and around the border. If you want the content to hug the border, use 0 padding, if you
+want surrounding element to hug the border use 0 margin.
+CSS's Position property affects the location of the element on the page. In the normal flow, an element will be placed at a certain location. The element can be moved from its location using the top and left properties of CSS once you've set a relative positioning scheme. Negative top pixel value moves element up from normal position and positive moves it down.
+
+An element is placed inside a containing block. That containing block becomes the ancestor of the element. The ancestor of the paragraph
+element is the body block..
+
+An elements are positioned relative to its ancestor.
+
+The idea is that content - whether image or text, list or table, can be placed inside an HTML and positioned using CSS.
+
+The inner span's immediate ancestor is the outer span, so its positioned is referenced to the outer span.
+The outer span's immediate ancestor is the paragraph
+
+The background-color property is also very powerful.
+An element without a defined background color is transparent. This means that elements beneath it will be visible. Once a background colour is added to an element, it covers whatever lies beneath.
+No background means transparent.
+ 
+That's it with relative position scheme, now let's check out absolute.
+
+Here's a simple exercise, create an AccSight calender.
+
+Annotating means labelling a specific section of an image for example. We can place a block around an item on the image and add a 
+note to that part. Nesting is used to achieve this.
+
+#picture:hover #note1 -> note1 is nested within picture. Picture:hover is an alias for a picture that has a mouse over it.
+
+note1 is a div. 
+#picture #note1{display: none;}
+#picture:hover #note1{display: block}
+Here the note1 div only appears when a mouse hovers over div.
+
+We can also place images in a set and scroll through them.
+
+I really want you to do this calender exercise. In your mind you should see HTML elements and how they relate to what you want to do.
+
 

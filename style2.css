@@ -1,0 +1,25 @@
+#picture {
+  position: relative;
+  width: 500px;
+}
+
+#picture img {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+#note1 {
+  position: absolute;
+  border: solid 2px green;
+  width: 160px;
+  height: 160px;
+  top: 10px;
+  left: 30px;
+  text-align: left;
+  display: none;
+}
+
+#picture:hover #note1 {
+  display: block;
+}
