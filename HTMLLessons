@@ -489,3 +489,129 @@ We can also place images in a set and scroll through them.
 I really want you to do this calender exercise. In your mind you should see HTML elements and how they relate to what you want to do.
 
 
+p span.important -> a span element of class important nested within a paragraph. span is desce
+
+p > span.important -> a span element of class important that is a child of a paragraph element
+
+the key word is direct. A child is a direct descendant of a parent but not all descendants are children, they may be
+children's chidren.
+
+b a  : a is just a descedant of b, not necessarily a child. Larger pool.
+b > a: a is a direct descedant of b. It's a child. Smaller pool
+
+what is a child and how does this relate to nesting. If a span is nested within a paragraph, does that make it a child?
+
+When you start nesting there comes a need to identify items by levels.
+
+Style must only be applicable to top level items
+
+ul.topLevel > li
+
+Next sibling selector
+
+h1 + p: First paragraph that follows h1 and has same parent as p
+h1 ~ p: paragraph that has same parent as h1 and not just the first.
+
+#navBar: element with id = navBar
+#navBar ul: list nested within navBar, all lists
+#navBar ul > li: list item that is a child of a list nested within elmnt known as navBar
+#navBar ul > a: link that is a child of a list within navBar
+#navBar ul ul: list nested within a list that is itself nested within navBar
+#navBar ul ul li: list item that nested within a list that's within a list that's within navBar
+#navBar ul ul li > a: link that's a child of a list item nested within a list that's within a list that's within navBar
+#navBar li:hover > a: link that's a child of a hovering list item nested within navBar
+#navBar li:hover > ul: list that's a child of a hovering list item nested within navBar***
+
+***so, you want to display the entire list when a mouse hovers over a list item
+The computer will do what you tell it to.
+
+..................................................
+
+
+A form is an HTML element. It has an action and a method. Action is the script that gets loaded when the form is submitted.
+A form can contain other elements.
+
+A form allows information to be collected from the user.
+
+Programs are stored at urls. Those programs get invoked, loaded when a form is submitted.
+
+A form is submitted with some data. That data is labelled using the name attribute of the input tag.
+The program processes the data and creates a response.
+
+A form packages a set of controls. Each control accepts an input from a user.
+A user can provide many different kinds of inputs. Input can be text, password or even submit. A submit input appears as a button
+that can be pressed. A text input and password input appear as blocks that can be filled with text.
+
+So we take scripts and store them at urls.
+
+The form's data can be sent to any url, including a 
+
+
+...................
+
+In time I'm in the second month of a 6month programming bootcamp. Within this six months, I wil accomplish...
+A website for my company
+A quoting and accounting web-based application for my company.
+An access control application that uses ZKTeco hardware to manage access.
+In the process of building these systems, I will learn HTML, CSS, Java, PHP and MySQL.
+
+These are my widly ambitous goals for 2022. To reach these goals sacrifices will have to be made. I will have to retreat from social
+interactions for a while. I will have to dedicate 8-12 daily towards reaching these goals.
+
+I don't know where my frame of mind will be at the end of it all. I cannot use my current fear-riddled frame of mind to decide what
+I'll do after these goals have been reached. I will decide when the time comes. Given that I put in enough work, consistently so, I will
+be in a better position in September. For now I will have to play it cool and lay back behind the scenes.
+
+
+.......
+
+
+The browser itself is not a passive element in this scenario. The browser
+can do a lot of things. You just have to tell it what to do.
+
+The browser can process and validate data input
+
+The browser carries a lot of intelligence. Invoking some of this intelligence
+will save you a lot of coding effort later on. Many of the things you would ordinarily do in code, the browser can be commanded to do for you.
+You need to know what the browser can do and what can be done to make it do that thing. THe browser is very powerful. If explored fully, coding effort
+can be reduced significantly.
+
+The input types are like the primitives for the browser. The browser can only
+parse a finite list of types - primitives - text,url,password....
+given the type the browser can be convinced to validate inputs.\
+
+
+calm down, calm dizzy. Don't blow things outta propotion.
+
+The browser is an existing program. It exists, instead of writing your own programs, you can learn how to command the browser and make it do the things that you want to do. This is what thinking is about. Instead of creating
+something new, learn how to command something that already exists.
+
+The browser is a very clever program. Learning to command the browser you can
+inherit some of its cleverness and use it in your own system.
+
+You see, you can use Java to create a web browser. you'll just be mapping
+tags to underlying functions.
+
+The main idea behind all of this is to use the browser to communicate with the
+user. Communication means passing information.
+
+Using the various form controls the user can...
+
+Submit one line or multi-line texts
+Select one item in a list of multiple items
+Select multiple items in a list of items
+Click a button to submit form data.
+
+All of these are merely different ways of receiving informtation from the user.
+
+
+Look man, the skill you are scavanging for is incredibly difficult to attain. The amount of time required to attain
+the skill is immense. 
+
+But the skill will trully set you apart. The title Electrical
+Engineer is much too broad. After graduation I had to sit down and narrow my interests. I had to decide what interests me the most.
+
+You can write applications that run on the browser. That is an incredibly useful skill to attain. T
+
+You must use fieldset and legend to group the various fields that collect data. You'll have the customer details
+field set, the product details field set. You'll also have the quotation field set.

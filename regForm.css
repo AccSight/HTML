@@ -1,0 +1,20 @@
+div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.req {
+  font-weight: bold;
+}
+
+label.field {
+  display: block;
+  float: left;
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+div input.submit {
+  margin-left: 210px;
+}

@@ -1,0 +1,9 @@
+fieldset {
+  border: none;
+  background-color: green;
+  width: 400px;
+}
+
+legend {
+  text-align: right;
+}
