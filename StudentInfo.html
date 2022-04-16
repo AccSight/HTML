@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+    <link rel="stylesheet" href="student.css" />
+  </head>
+  <body>
+    <h2>Student Info</h2>
+    <form action="loadInfo.php" method="post">
+      <div>
+        <label for="stName">Student Name</label>
+        <input type="text" name="stName" />
+      </div>
+      <div>
+        <label for="grade">Grade</label>
+        <input type="number" name="grade" />
+      </div>
+      <div>
+        <label for="section">Section</label>
+        <input type="text" name="section" />
+      </div>
+      <div>
+        <label for="teacher">Teacher</label>
+        <input type="text" name="teacher" />
+      </div>
+      <div>
+        <input type="submit" name="Submit" id="button" />
+      </div>
+    </form>
+  </body>
+</html>
